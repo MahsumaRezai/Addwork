@@ -9,7 +9,7 @@ body {
   background-image: url('./Component/background.jfif');
   background-repeat:no-repeat;
   background-size: cover;
-  background-attachment: local
+  background-attachment: fixed
 
 }
 
