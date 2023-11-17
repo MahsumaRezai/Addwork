@@ -16,11 +16,11 @@ const Form = (props) => {
     return (
         <form onSubmit={formSubmitHandler} className='content'>
             <div className="form-control">
-                <label>Add Your Takse</label>
+                <label>Add Your Task</label>
                 <input type="text" onChange={goalInputChangeHandler} />
             </div>
             <Button type="submit">
-                <img alt="" src={image} className="image"/>
+                <img alt="" src={image} className="image" />
             </Button>
         </form>
     );
