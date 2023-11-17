@@ -1,0 +1,47 @@
+.form-control {
+    margin: 0.5rem 0;
+  }
+  .content {
+    background: linear-gradient( 135deg, rgba(0, 138, 251, 0.621) , rgba(112, 150, 232, 0.07), rgba(51, 0, 255, 0) );
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.17);
+    width: fit-content;
+    margin:  100px auto;
+    padding:  50px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 10px
+
+
+  }
+  .image {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color:  white;
+    padding-bottom: 20px;
+    font-size: 20px
+  }
+  
+  .form-control input {
+    display: block;
+    width: 400px;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    height: 50px;
+  }
+  
+  .form-control input:focus {
+    outline: none;
+    background: #fad0ec;
+    border-color: #8b005d;
+  }
+  
