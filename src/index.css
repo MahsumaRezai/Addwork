@@ -6,7 +6,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-image: url('./Component/background.jfif');
+  background-image: url('./Component/asset/background.jfif');
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed
